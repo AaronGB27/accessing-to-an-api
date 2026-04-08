@@ -33,3 +33,7 @@ def run_summary_tool():
         if ask == "n":
             print("\"Thank you for using Book for Mormon Summary Tool!\"")
     # do not forget to finish or break the loop
+            break
+
+if __name__ == "__main__":
+    run_summary_tool()
